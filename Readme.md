@@ -27,6 +27,7 @@ bundle exec rspec
 * Check whats listening on 0.0.0
 * Disable Spotlight Suggestions 
 * Check if flash is installed 
+* Make application checks optional
 
 ## License
 MIT
