@@ -10,7 +10,7 @@ ruby <= 1.9
 
 ```bash
 # Install bundler 
-gem install bundler
+sudo gem install bundler
 
 # Clone repo
 git clone git@github.com:hellofresh/workstation-check.git
