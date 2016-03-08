@@ -1,15 +1,5 @@
 require 'spec_helper'
 
-# if  ['darwin'].include?(os[:family])
-#     puts os[:family]
-#     puts os[:release] # OS release version
-#     puts os[:arch]    # i386 or x86_64
-# else
-#     puts "not working"
-# end 
-
-# puts os
-
 # Current support OS Families
 supported_os_families     = ["darwin", "ubuntu"]
 supported_ubuntu_version  = ["14.04"]
