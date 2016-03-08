@@ -24,6 +24,7 @@ bundle exec rspec
 ```
 
 ## TODO
+* More docs and instruction on how and why
 * Check whats listening on 0.0.0
 * Disable Spotlight Suggestions 
 * Check if flash is installed 
