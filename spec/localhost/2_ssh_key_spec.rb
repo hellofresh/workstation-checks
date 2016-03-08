@@ -18,5 +18,4 @@ if ssh_exists
     end
   end
 
-
 end
