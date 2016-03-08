@@ -13,7 +13,7 @@ ruby >= 1.9
 sudo gem install bundler
 
 # Clone repo
-git clone git@github.com:hellofresh/workstation-check.git
+git clone git@github.com:hellofresh/workstation-checks.git
 cd workstation-check
 
 # install dependencies
