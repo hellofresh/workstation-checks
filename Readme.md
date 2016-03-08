@@ -4,7 +4,7 @@ workstation-check
 Specs tests to check your Mac/linux compatibility with a set of best security practices. 
 
 ## Requirements
-ruby <= 1.9
+ruby >= 1.9
 
 ## To install
 
