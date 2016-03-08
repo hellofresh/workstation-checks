@@ -4,23 +4,22 @@ workstation-check
 Specs tests to check your Mac/linux compatibility with a set of best security practices. 
 
 ## Requirements
-ruby >= 1.9
+* ruby <= 1.9 (instelled by default with mac)
+* git
 
 ## To install
 
-```bash
-# Install bundler 
-sudo gem install bundler
+Open your terminal and clone this repo
 
-# Clone repo
+```bash
+# Clone this repo 
 git clone https://github.com/hellofresh/workstation-checks.git
 cd workstation-checks
+```
 
-# install dependencies
-bundle install
-
-# Run specs
-bundle exec rspec
+Run the installation 
+```bash
+sudo ./run.sh
 ```
 
 ## TODO
@@ -35,3 +34,4 @@ MIT
 
 ### Contributors
 * [Adham Helal](https://github.com/ahelal)
+
