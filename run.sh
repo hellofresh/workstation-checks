@@ -37,6 +37,10 @@ msg_msg " | Installing bundler"
 gem install bundler --no-ri --no-rdoc
 echo ""
 
+msg_msg " | Installing gems"
+bundler install
+echo ""
+
 # Run specs
 msg_msg " | Running the tests "
 cd ${SETUP_DIR}
