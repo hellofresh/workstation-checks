@@ -24,11 +24,6 @@ command_exists () {
     type "$1" &> /dev/null ;
 }
 
-if [ "$(id -u)" != "0" ]; then
-   msg_exit "You need to run this script as root ${COLOR_GRN}sudo ${0}${COLOR_END}" 1>&2
-fi
-
-
 if ! command_exists gem ; then
    msg_exit " Ruby and Gems are required to run the tests."
 fi
