@@ -34,7 +34,7 @@ if ! command_exists gem ; then
 fi
 
 msg_msg " | Installing bundler"
-gem install bundler --no-ri --no-rdoc
+sudo gem install bundler --no-ri --no-rdoc
 echo ""
 
 msg_msg " | Installing gems"
