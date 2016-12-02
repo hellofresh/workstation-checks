@@ -1,7 +1,7 @@
 workstation-check
 =================
 
-Specs tests to check your Mac/linux compatibility with a set of best security practices. 
+Specs tests to check your Mac compatibility with a set of best security practices. 
 
 ## Requirements
 * ruby <= 1.9 (instelled by default with mac)
@@ -27,6 +27,7 @@ Run the installation
 * Check whats listening on 0.0.0
 * Disable Spotlight Suggestions 
 * Check if flash is installed 
+* Linux Workstation checks
 * Make application checks optional
 
 ## License
