@@ -19,7 +19,7 @@ cd workstation-checks
 
 Run the installation 
 ```bash
-sudo ./run.sh
+./run.sh
 ```
 
 ## TODO
